@@ -52,13 +52,13 @@ const db = mysql.createConnection(
 //});
 
 //create a candidate
-const sql = `INSERT INTO candidates (id, first_name, last_name, industry_connected)
-              VALUES (?,?,?,?)`;
-const params = [1, 'Ronald', 'Firbank', 1];
+//const sql = `INSERT INTO candidates (id, first_name, last_name, industry_connected)
+              //VALUES (?,?,?,?)`;
+//const params = [1, 'Ronald', 'Firbank', 1];
 
-db.query(sql, params, (err, result) => {
-  if(err) {
-      console.log(err);
-  }
-  console.log(result);
-});
+//db.query(sql, params, (err, result) => {
+//  if(err) {
+//      console.log(err);
+//  }
+//  console.log(result);
+//});
